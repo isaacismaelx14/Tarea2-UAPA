@@ -61,8 +61,9 @@
             button1.Name = "button1";
             button1.Size = new Size(127, 23);
             button1.TabIndex = 2;
-            button1.Text = "button1";
+            button1.Text = "Resultado";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // tbValueTwo
             // 
@@ -128,7 +129,6 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
